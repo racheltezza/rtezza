@@ -1,5 +1,228 @@
 .App {
   text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.icons {
+  font-family: 'devicons';
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Playfair Display', serif;
+  color: whitesmoke;
+  letter-spacing: 14px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: whitesmoke;
+  letter-spacing: 6px;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  color: whitesmoke;
+  margin: 30px auto;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+h4 {
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: rgb(66, 40, 79);
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.navbar {
+  /* background-color: #282c34; */
+  /* border-bottom: 1px solid black; */
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.title-name {
+  padding: 100px;
+  margin: 20px auto 200px auto;
+  background-image: url('./purple_plant.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+/* 
+.title {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+} */
+
+.brand-statement {
+  /* background-image: linear-gradient(to right, rgb(170, 117, 194), rgba(31, 6, 43, 1)); */
+  background: rgba(31,6,43,.6);
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+}
+
+.about {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgb(66, 40, 79);
+  color: whitesmoke;
+}
+
+.about-p {
+  margin: 20px auto;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 50vw;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.about-image {
+  width:20vw;
+  height: 30vh;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+}
+
+.about ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about li {
+  margin: 30px;
+}
+
+.skills {
+  background-color: white;
+  color: rgb(66, 40, 79);
+  padding: 10px;
+  margin: 30px auto;
+}
+
+.skills-title {
+  color: rgb(66, 40, 79);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+.skill-couple {
+  color: rgb(66, 40, 79);
+  font-weight: 500;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.projects {
+  padding: 20px;
+  margin: 20px auto;
+  color: rgb(66, 40, 79);
+}
+
+.project {
+  background: rgba(31,6,43,.6);
+  padding: 15px;
+  margin: 10px;
+  color: whitesmoke;
+  width: 35vw;
+  line-height: 1.6;
+}
+
+.project a {
+  color: rgb(66, 40, 79);
+  letter-spacing: 1px;
+}
+
+.projects-title {
+  color: rgb(66, 40, 79);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.projects-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-image {
+  width: 30vw;
+}
+
+.projects ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: 1px solid rgb(247, 93, 93); */
+  /* width: 40vw; */
+}
+
+.projects li {
+  margin: 10px auto;
+}
+
+.contact {
+  padding: 20px 0;
+  background-color: rgb(66, 40, 79);
+  color: whitesmoke;
+}
+.contact li {
+  margin: 30px auto;
+}
+
+.contact-link {
+  color: whitesmoke;
+}
+
+.contact ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
 }
 
 .App-logo {
@@ -23,11 +246,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+li {
+  list-style: none;
 }
