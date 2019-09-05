@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: whitesmoke;
   letter-spacing: 6px;
 }
@@ -144,7 +144,7 @@ a {
 
 .skills-title {
   color: rgb(66, 40, 79);
-  font-family: 'Josefin Sans', sans-serif;
+
   font-weight: 700;
 }
 
@@ -162,6 +162,7 @@ a {
 
 .project {
   background: rgba(31,6,43,.6);
+  /* border: 20px solid rgba(31,6,43,.6); */
   padding: 15px;
   margin: 10px;
   color: whitesmoke;
@@ -170,13 +171,15 @@ a {
 }
 
 .project a {
-  color: rgb(66, 40, 79);
+  color: whitesmoke;
   letter-spacing: 1px;
+  border: 1px solid whitesmoke;
+  padding: 2px;
+  text-decoration: none;
 }
 
 .projects-title {
   color: rgb(66, 40, 79);
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .projects-list{
@@ -188,6 +191,7 @@ a {
 
 .project-image {
   width: 30vw;
+  border: 10px solid whitesmoke;
 }
 
 .projects ul {
