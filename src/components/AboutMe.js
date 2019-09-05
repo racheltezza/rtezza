@@ -90,14 +90,15 @@ export default class AboutMe extends Component {
                 <div className='about-section'>
                 <img src={PAINT} className='about-image'/>
                 <p className='about-p'>
-                   While navgating the world of UX and creative design, 
-                   I found that I didn't really know much about what went into developing 
-                   these experiences and designs I was creating. 
-                   That's when I gained an interest in learning more about what goes on 
-                   behind the scenes of the UI and becoming a developer. I have since pivoted 
-                   to the world of software engineering and have learned some tools and 
-                   skills to build full-stack applications. My goal is to make peoples' 
-                   lives better through development and a positive user experience.
+                    My professional and educational journey has provided training 
+                    and experience as an inventive and dynamic problem solver and avid learner. 
+                    The evolution of who I am as a software engineer began with my role as a creative and UX designer.
+                    My artistic side loved using visual communication to create strong visual presence, 
+                    but my analytical side wondered what went on behind the scenes. I made a decision to 
+                    learn full-stack development so that I could be prepared to make full-bodied, impactful work.
+                    I have since pivoted to the world of software engineering and have learned the tools and 
+                    skills to build full-stack applications. My goal is to make peoples' 
+                    lives better through development and a positive user experience.
                 </p>
                 <img src={CODE} className='about-image'/>
                 </div>

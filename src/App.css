@@ -41,6 +41,7 @@ h3 {
 h4 {
   color: whitesmoke;
   font-size: 24px;
+  letter-spacing: 2px;
 }
 
 .bold {
@@ -152,6 +153,7 @@ a {
   color: rgb(66, 40, 79);
   font-weight: 500;
   font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
 }
 
 .projects {
@@ -168,6 +170,7 @@ a {
   color: whitesmoke;
   width: 35vw;
   line-height: 1.6;
+  letter-spacing: 1.5px;
 }
 
 .project a {
@@ -180,6 +183,7 @@ a {
 
 .projects-title {
   color: rgb(66, 40, 79);
+  font-family: 'Playfair Display', serif;
 }
 
 .projects-list{
@@ -204,6 +208,7 @@ a {
 
 .projects li {
   margin: 10px auto;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .contact {
@@ -212,7 +217,7 @@ a {
   color: whitesmoke;
 }
 .contact li {
-  margin: 30px auto;
+  letter-spacing: 1.5px;
 }
 
 .contact-link {
@@ -221,8 +226,9 @@ a {
 
 .contact ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  padding-inline-start: 0;
 }
 
 li {
