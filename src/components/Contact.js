@@ -32,6 +32,9 @@ handleHideResume = () => {
                     <li>
                         <a href='https://github.com/racheltezza?tab=repositories' className='contact-link'>GitHub</a>
                     </li>
+                    <li>
+                        <a href='https://www.racheltezzadesign.com/' className='contact-link'>Design Work</a>
+                    </li>
                 </ul>
             </div>
         )
