@@ -3,6 +3,7 @@ import HTML from '../devicons-master/PNG/html5.png'
 import CSS from '../devicons-master/PNG/css3.png'
 import JS from '../devicons-master/PNG/javascript_1.png'
 import REACT from '../devicons-master/PNG/react.png'
+import ANGULAR from '../devicons-master/PNG/angular_simple.png'
 import NODE from '../devicons-master/PNG/nodejs.png'
 import GIT from '../devicons-master/PNG/git.png'
 import GITHUB from '../devicons-master/PNG/github_badge.png'
@@ -31,6 +32,10 @@ let skills = [
     {
         name: 'REACT.JS',
         icon: REACT
+    },
+    {
+        name: 'ANGULAR',
+        icon: ANGULAR
     },
     {
         name: 'GIT',
