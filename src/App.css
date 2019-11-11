@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Lulo Outline'; /*a name to be used later*/
+  src: url('LuloCleanOutlineBold.otf'); /*URL to font*/
+}
+
 .App {
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -17,29 +22,30 @@ ul {
 
 h1 {
   font-size: 80px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lulo Outline';
   color: whitesmoke;
   letter-spacing: 14px;
+  text-shadow: rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
 }
 
 h2 {
   font-size: 40px;
-  font-family: 'Playfair Display', serif;
-  color: whitesmoke;
+  font-family: 'Lulo Outline';
+  color: black;
   letter-spacing: 6px;
 }
 
 h3 {
-  font-size: 40px;
-  font-family: 'Playfair Display', serif;
-  color: whitesmoke;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: black;
   margin: 30px auto;
   font-weight: 100;
   letter-spacing: 4px;
 }
 
 h4 {
-  color: whitesmoke;
+  color: black;
   font-size: 24px;
   letter-spacing: 2px;
 }
@@ -54,7 +60,7 @@ p {
 }
 
 a {
-  color: rgb(66, 40, 79);
+  color: black;
   font-weight: 500;
   letter-spacing: 3px;
 }
@@ -70,7 +76,7 @@ a {
   padding: 30px;
 }
 
-.title-name {
+/* .title-name {
   padding: 100px;
   margin: 20px auto 200px auto;
   background-image: url('./purple_plant.jpg');
@@ -78,7 +84,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
-}
+} */
 /* 
 .title {
   width: 50vw;
@@ -89,21 +95,29 @@ a {
   justify-content: center;
   align-content: center;
 } */
-
+.title{
+  height: 90vh;
+}
 .brand-statement {
   /* background-image: linear-gradient(to right, rgb(170, 117, 194), rgba(31, 6, 43, 1)); */
-  background: rgba(31,6,43,.6);
+  /* background: rgba(254, 1, 1, 0.298039); */
+  /* border: 2px solid black; */
+  color: grey;
   padding: 10px;
   font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 2px;
+  margin-top: 125px;
+  display: flex;
+  justify-content: center;
 }
 
 .about {
   padding: 20px;
   margin: 20px auto;
-  background-color: rgb(66, 40, 79);
+  background-color: rgba(254, 1, 1, 0.298039);
   color: whitesmoke;
+
 }
 
 .about-p {
@@ -116,13 +130,17 @@ a {
 }
 
 .about-image {
-  width:20vw;
-  height: 30vh;
+  width: 250px;
+  height: 250px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 75%;
 }
 
 .about-section {
   display: flex;
   align-items: center;
+  background: rgba(191, 130, 130, 0.5);
 }
 
 .about ul {
@@ -138,19 +156,18 @@ a {
 
 .skills {
   background-color: white;
-  color: rgb(66, 40, 79);
   padding: 10px;
   margin: 30px auto;
 }
 
 .skills-title {
-  color: rgb(66, 40, 79);
+  color: rgba(254, 1, 1, 0.298039);
 
   font-weight: 700;
 }
 
 .skill-couple {
-  color: rgb(66, 40, 79);
+  color: black;
   font-weight: 500;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 2px;
@@ -163,27 +180,27 @@ a {
 }
 
 .project {
-  background: rgba(31,6,43,.6);
+  background:rgba(254, 1, 1, 0.07);
   /* border: 20px solid rgba(31,6,43,.6); */
   padding: 15px;
   margin: 10px;
-  color: whitesmoke;
+  border-radius: 50%;
   width: 35vw;
   line-height: 1.6;
   letter-spacing: 1.5px;
 }
 
 .project a {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   letter-spacing: 1px;
-  border: 1px solid whitesmoke;
-  padding: 2px;
+  border: 1px solid black;
+  padding: 6px;
   text-decoration: none;
 }
 
 .projects-title {
   color: rgb(66, 40, 79);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lulo Outline';
 }
 
 .projects-list{
@@ -194,7 +211,7 @@ a {
 }
 
 .project-image {
-  width: 30vw;
+  width: 25vw;
   border: 10px solid whitesmoke;
 }
 
@@ -213,15 +230,15 @@ a {
 
 .contact {
   padding: 20px 0;
-  background-color: rgb(66, 40, 79);
-  color: whitesmoke;
+  background-color: rgba(10, 189, 240, 0.298039);
+  color: black;
 }
 .contact li {
   letter-spacing: 1.5px;
 }
 
 .contact-link {
-  color: whitesmoke;
+  color: black;
 }
 
 .contact ul {
