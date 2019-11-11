@@ -36,8 +36,8 @@ h2 {
 }
 
 h3 {
-  font-size: 40px;
-  font-family: 'Lulo Outline';
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
   color: black;
   margin: 30px auto;
   font-weight: 100;
@@ -95,21 +95,29 @@ a {
   justify-content: center;
   align-content: center;
 } */
-
+.title{
+  height: 90vh;
+}
 .brand-statement {
   /* background-image: linear-gradient(to right, rgb(170, 117, 194), rgba(31, 6, 43, 1)); */
-  background: rgba(254, 1, 1, 0.298039);
+  /* background: rgba(254, 1, 1, 0.298039); */
+  /* border: 2px solid black; */
+  color: grey;
   padding: 10px;
   font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 2px;
+  margin-top: 125px;
+  display: flex;
+  justify-content: center;
 }
 
 .about {
   padding: 20px;
   margin: 20px auto;
   background-color: rgba(254, 1, 1, 0.298039);
-  /* color: whitesmoke; */
+  color: whitesmoke;
+
 }
 
 .about-p {
@@ -122,13 +130,17 @@ a {
 }
 
 .about-image {
-  width:20vw;
-  height: 30vh;
+  width: 250px;
+  height: 250px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 75%;
 }
 
 .about-section {
   display: flex;
   align-items: center;
+  background: rgba(191, 130, 130, 0.5);
 }
 
 .about ul {
@@ -144,19 +156,18 @@ a {
 
 .skills {
   background-color: white;
-  color: rgb(66, 40, 79);
   padding: 10px;
   margin: 30px auto;
 }
 
 .skills-title {
-  color: rgb(66, 40, 79);
+  color: rgba(254, 1, 1, 0.298039);
 
   font-weight: 700;
 }
 
 .skill-couple {
-  color: rgb(66, 40, 79);
+  color: black;
   font-weight: 500;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 2px;
@@ -169,11 +180,11 @@ a {
 }
 
 .project {
-  background: rgba(10, 189, 240, 0.298039);
+  background:rgba(254, 1, 1, 0.07);
   /* border: 20px solid rgba(31,6,43,.6); */
   padding: 15px;
   margin: 10px;
-
+  border-radius: 50%;
   width: 35vw;
   line-height: 1.6;
   letter-spacing: 1.5px;
@@ -200,7 +211,7 @@ a {
 }
 
 .project-image {
-  width: 30vw;
+  width: 25vw;
   border: 10px solid whitesmoke;
 }
 
