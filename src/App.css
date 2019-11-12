@@ -115,8 +115,10 @@ a {
 .about {
   padding: 20px;
   margin: 20px auto;
-  background-color: rgba(254, 1, 1, 0.298039);
-  color: whitesmoke;
+  /* background-color: rgba(254, 1, 1, 0.298039); */
+  border-top: 4px solid rgba(254, 1, 1, 0.298039);
+  border-bottom: 4px solid rgba(254, 1, 1, 0.298039);
+  color: black;
 
 }
 
@@ -135,12 +137,14 @@ a {
   margin-left: 80px;
   margin-right: 80px;
   border-radius: 75%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .about-section {
   display: flex;
   align-items: center;
   background: rgba(191, 130, 130, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .about ul {
@@ -156,8 +160,10 @@ a {
 
 .skills {
   background-color: white;
+  border: 2px solid black;
   padding: 10px;
   margin: 30px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .skills-title {
@@ -184,18 +190,22 @@ a {
   /* border: 20px solid rgba(31,6,43,.6); */
   padding: 15px;
   margin: 10px;
-  border-radius: 50%;
+  border-radius: 15%;
   width: 35vw;
   line-height: 1.6;
   letter-spacing: 1.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .project a {
   /* color: whitesmoke; */
   letter-spacing: 1px;
   border: 1px solid black;
+  border-radius: 4px;
   padding: 6px;
+  background-color: rgba(254, 1, 1, 0.1);
   text-decoration: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects-title {
@@ -213,6 +223,7 @@ a {
 .project-image {
   width: 25vw;
   border: 10px solid whitesmoke;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .projects ul {
